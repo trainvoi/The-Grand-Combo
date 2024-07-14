@@ -680,6 +680,7 @@ political_decisions = {
 			NOT = {
 				exists = PAP
 			}
+			NOT = { capital = 749 }
 			NOT = { has_country_flag = law_of_guarantees }
 		}
 
@@ -702,7 +703,7 @@ political_decisions = {
 				}
 				PAP = {
 					add_country_modifier = { name = neutrality duration = -1 }
-					set_country_flag = micro_nation
+					
 				}
 			}
 		}
